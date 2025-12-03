@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--HOME/GUEST word columns-->
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        
+        <!--Blackboxes columns with scores-->
+        <div class="container">
+                <div id="home-el" class="blackbox points">0</div>
+                
+                <div id="guest-el" class="blackbox points">0</div>
+        </div>
+        
+        <!--Points buttons-->
+        <div class="container">
+            <div>
+                <button class="pointsbutt" onclick="addOneHome()">+1</button>
+                <button onclick="addTwoHome()" class="pointsbutt">+2</button>
+                <button onclick="addThreeHome()" class="pointsbutt">+3</button>
+            </div>
+            
+            <div>
+                <button onclick="addOneGuest()" class="pointsbutt">+1</button>
+                <button onclick="addTwoGuest()" class="pointsbutt">+2</button>
+                <button onclick="addThreeGuest()" class="pointsbutt">+3</button>
+            </div>
+        </div>
+        
+        <!--RESET Button-->
+        <div class="container">
+            <button onclick="reset()" class="resetbutt">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
