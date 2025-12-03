@@ -63,11 +63,18 @@ button {
 
 
 h3 {
-    color: white;
     font-size: 40px;
     line-height: 35.89px;
     font-style: bold;
     font-family: Verdana, sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+#home-header {
+    color: yellow;
+}
+
+#guest-header {
+    color: yellow;
 }
